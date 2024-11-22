@@ -1,0 +1,171 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  gap: 20px;
+  width: 100%;
+  padding-left: 9%;
+  top: 10px;
+}
+
+.logoname{
+  top: -7px;
+  right: 3%;
+  position: relative;
+}
+
+.headerlink{
+  position: relative;
+  top: 13px;
+  font-size: 15px;
+  font-family: sans-serif;
+  color: #69707D;
+  pointer-events:all;
+  height: 10px;
+}
+
+
+.headerlink:hover{
+  color: #1D2026;
+
+}
+
+
+.cartbut{
+  position: relative;
+  top: 11px;
+  left: 50%;
+  width: 23.82px;
+height: 23px;
+border: none;
+}
+
+.user{
+  position: relative;
+  top: -4px;
+  width: 50px;
+  left: 50%;
+}
+
+
+.carting{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 53%;
+  width: 20%;
+}
+
+.addto{
+  width: 200px;
+  height: 56px;
+  position: absolute ;
+  transform: translateX(60%);
+  gap: 0px;
+  border-radius: 10px;
+  border: none;
+  opacity: 0px;
+  background: #FF7E1B;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.addto:hover{
+  background-color: #f38e41e5;
+}
+
+.ascend{
+  border: none;
+  color:#FF7E1B ;
+  font-size: 23px;
+  position: relative;
+  left: 46px;
+  height: 40px;
+  background-color: transparent;
+  font-weight: 800;
+}
+
+.desc{
+  background-color: transparent;
+  border: none;
+  color:#FF7E1B ;
+  font-size: 23px;
+  background-color: transparent;
+  height: 35px;
+  position: relative;
+  right: 46px;
+  font-weight: 800;
+}
+
+.much{
+  position: relative;
+  top: 5px;
+}
+
+.showhided{
+  position: absolute;
+  transform: translateX(320%)translateY(20px);
+  box-shadow: 0px 20px 50px -20px #1D202680;
+  width: 360px;
+  height: 256px;
+  gap: 0px;
+  border-radius: 10px 0px 0px 0px;
+  opacity: 0px;
+  font-size: 16px;
+  z-index: 5;
+}
+
+.trash{
+  width: 23px;
+  pointer-events: none;
+  position: relative;
+  right: 120px;
+}
+
+.deleting{
+  position: relative;
+  border: none;
+  cursor: pointer;
+  transform: translateX(52px);
+  z-index: 12;
+}
+
+.cartimg{
+  width: 53px;
+}
+
+.title{
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.price2{
+  font-size: 16px;
+  position: relative;
+  top: 20px;
+  right: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.total{
+  font-size: 16px;
+  position: relative;
+  top: 20px;
+  right: 130px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.carting2{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 60px;
+}
+
+.cartname{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
